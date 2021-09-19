@@ -1,0 +1,36 @@
+#game {
+  background: var(--content-background-color);
+  border-radius: var(--default-border-radius);
+  padding: 3vmin;
+  box-shadow: var(--box-shadow);
+}
+
+h1 {
+  color: var(--primary-color);
+  text-align: left;
+  margin-bottom: 2vmin;
+  font-size: var(--main-title-font-size);
+}
+
+.con-span{
+  width: 100%;
+  display: flex;
+}
+
+.left-span{
+  color: var(--primary-color);
+  flex: 1;
+  font-weight: 600;
+  min-width: 100px;
+  margin-bottom: 2vmin;
+  font-size: var(--main-title-font-size);
+}
+
+.right-span{
+  color: var(--primary-color);
+  flex: 1;
+  align-items: right;
+  text-align: right;
+  margin-bottom: 2vmin;
+  font-size: var(--main-title-font-size);
+}
